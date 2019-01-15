@@ -4,16 +4,17 @@
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
-
 .container1 {
     display: flex;
     flex-direction: column;
     font-size: 18px;
+    min-height: 100vh;
 }
 
 .container2 {
     display: flex;
     flex-direction: row;
+    flex-grow: 1;
 }
 
 .container3 {
@@ -21,9 +22,8 @@
     flex-direction: column;
     align-content: center;
     justify-content: center;
-    padding: 2em 5em 2em 5em;
+    padding: 2em 12em;
     margin: 0 auto;
-    width: 1000px;
 }
 
 header {
@@ -40,5 +40,10 @@ footer {
 
 .sidebar {
     background-color: red;
+    color: white;
     padding: 2em;
+}
+
+h1 {
+    border-bottom: 2px solid gray;
 }
